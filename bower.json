@@ -1,0 +1,17 @@
+{
+  "name": "zhihuijinku",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "e <905560820@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/fyunzhou/zhihuijinku",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
