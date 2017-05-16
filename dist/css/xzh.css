@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    font-family: "微软雅黑 Light";
+}
+body {
+    height: 2000px;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+ul li {
+    list-style: none;
+}
+.box {
+    height: auto;
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+/*电影顶部*/
+.top{
+    border-top: #e2dcdf 2px solid;
+    border-bottom:  #e2dcdf 2px solid;
+    width: 100%;
+    height: 64px;
+    min-width: 300px;
+    max-width: 640px;
+    position: relative;
+}
+.top img{
+    margin-top: 0.8%;
+    margin-left: 2%;
+    height:auto;
+    width:auto ;
+}
+.top input{
+    height: 55%;
+    width: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: white;
+    border: solid 2px #e2dcdf;
+    border-radius: 2px;
+    color: #938f91;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+/*电影视频*/
+.vid{
+    position: relative;
+    width: 100%;
+    height:auto;
+}
+.vid:before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    box-shadow:0 -80px 80px black inset;
+
+}
+.vid img{
+    width: 100%;
+    height: auto;
+
+}
+.back{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(52, 52, 52, 0.53);
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.back2{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(52, 52, 52, 0.53);
+    border: none;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+
+}
+.back3{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+.ull{
+    background-color:rgba(52, 52, 52, 0.53);
+}
+.ull a{
+    display: block;
+    margin-left: 20px;
+}
+/*电影简介*/
+.jianjie{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.haibao{
+    position: absolute;
+    top: -100%;
+    left: 5%;
+    width: 25%;
+    height: auto;
+}
+.haibao img{
+    width: 100%;
+    height: auto;
+    border: 3px white solid;
+    border-radius: 5px;
+}
+.hbl{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 32%;
+    top: -70%;
+}
+.yanyuan{
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 32%;
+}
+.qwqw{
+    position: absolute;
+    right: 5%;
+    width:5%;
+    height: 50%;
+    font-size: 250%;
+    color: #7e7f7b;
+}
+/*剧情*/
+.juqing{
+   width: auto;
+   height: auto;
+}
+/*盖子下部*/
+.box2{
+    width: 100%;
+    height: 300px;
+    background-color: #ce8483;
+    position: relative;
+    top: -150px;
+}
+
+
