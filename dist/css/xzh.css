@@ -96,6 +96,10 @@ ul li {
 }
 .ull{
     background-color:rgba(52, 52, 52, 0.53);
+    min-width: 100px;
+    display: none;
+    position: absolute;
+    right: 0;
 }
 .ull a{
     display: block;
@@ -191,7 +195,7 @@ ul li {
     background-color: #c5c0c2;
     border: none;
     border-radius: 10px;
-    margin-left: 40%;
+    margin-left: 36%;
     margin-top: 20px;
 }
 .last{
