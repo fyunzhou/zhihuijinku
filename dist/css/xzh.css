@@ -3,7 +3,7 @@
     font-family: "微软雅黑 Light";
 }
 body {
-    height: 2000px;
+
 }
 a {
     text-decoration: none;
@@ -96,6 +96,10 @@ ul li {
 }
 .ull{
     background-color:rgba(52, 52, 52, 0.53);
+    min-width: 100px;
+    display: none;
+    position: absolute;
+    right: 0;
 }
 .ull a{
     display: block;
@@ -109,29 +113,30 @@ ul li {
 }
 .haibao{
     position: absolute;
-    top: -100%;
+    top: -68%;
     left: 5%;
-    width: 25%;
+    width: 30%;
     height: auto;
 }
 .haibao img{
     width: 100%;
     height: auto;
-    border: 3px white solid;
+    border: 2px white solid;
     border-radius: 5px;
+    box-shadow: 0 2px 4px black;
 }
 .hbl{
     width: auto;
     height: auto;
     position: absolute;
-    left: 32%;
+    left: 39%;
     top: -70%;
 }
 .yanyuan{
     width: auto;
     height: auto;
     position: absolute;
-    left: 32%;
+    left: 36%;
 }
 .qwqw{
     position: absolute;
@@ -139,7 +144,7 @@ ul li {
     width:5%;
     height: 50%;
     font-size: 250%;
-    color: #7e7f7b;
+    color: #b5b1b3;
 }
 /*剧情*/
 .juqing{
@@ -149,10 +154,57 @@ ul li {
 /*盖子下部*/
 .box2{
     width: 100%;
-    height: 300px;
-    background-color: #ce8483;
+    height: auto;
+    background-color: white;
     position: relative;
     top: -150px;
+}
+#btn{
+    background-color: rgba(254, 255, 251, 0);
+    color: #ff4b00;
+    height: 30px;
+    width: 100%;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid #c5c0c2;
+}
+.juzhao{
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+.juzhao img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.pp{
+    color: #ff4b00;
+    height: 50px;
+    padding-left: 42%;
+    line-height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #c5c0c2;
+    cursor: pointer;
+}
+.jzz{
+    font-size: 120%;
+    height:30px;
+    line-height: 30px;
+    width: 100px;
+    background-color: #c5c0c2;
+    border: none;
+    border-radius: 10px;
+    margin-left: 36%;
+    margin-top: 20px;
+}
+.last{
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+    height: 50px;
+    width: 100%;
+    border-top: 1px solid #c5c0c2;
 }
 
 
