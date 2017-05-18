@@ -12,7 +12,7 @@
             margin: 0 auto;
         }
         body{
-            height: 2500px;
+            height: 1130px;
         }
         li{list-style:none;}
         .jd-category-style-1 li{
@@ -22,24 +22,24 @@
 </head>
 <body>
 <!--顶部导航开始-->
-<div class="table-responsive" style="margin-top: -1px;"  >
-    <table class="table" style="position:relative ; z-index: 100;" >
+<div class="table-responsive" style="margin-top: -5px;height: 50px"  >
+    <table class="table" style="position:relative ; z-index: 100;border: #f26422  solid 0" >
         <tbody>
         <tr style="background-color:#f26422" >
             <td>
                 <div style="position: relative ;margin-top: 8px ">
-                    <a href="#" class="" style="color: white "   ><span class="glyphicon glyphicon-chevron-left"></span></a>
+                    <a href="#" class="" style="color: white "   ><span class="glyphicon glyphicon-menu-left"></span></a>
                 </div>
             </td>
             <td>
                 <div class="form-group" style="text-align: center;"  >
-                    <p style="margin-top: 8px;color: white " ><b>广州南沙万达电影城</b></p>
+                    <p style=" margin-top: 8px;color: white " ><b >广州南沙万达电影城</b></p>
                 </div>
             </td>
             <td>
-                    <div class=" " id=""  type="button" onclick="show2()" style="position: relative ;">
-                        <span style="margin-top: 8px;position:absolute ; right: 10px; color: white " class="glyphicon glyphicon-align-justify"></span>
-                    </div>
+                <div class=" " id=""  type="button" onclick="show2()" style="position: relative ;">
+                    <span style="margin-top: 8px;position:absolute ; right: 10px; color: white " class="glyphicon glyphicon-menu-hamburger"></span>
+                </div>
             </td>
         </tr>
         <tr>
@@ -48,22 +48,22 @@
 </div>
 <!--顶部导航结束-->
 <!--下拉菜单开始-->
-<div  style="display: none;position:absolute ;right: 0%; margin-top: -19px;z-index:1001;width:120px   " id="b1">
+<div  style="display: none;position:absolute ;right: 0%; margin-top: -19px;z-index:1001;width:100px   " id="b1">
     <table style="width: 100%;background-color: #f26422 " >
         <tbody>
-        <tr style=" width: 100px " >
-            <td style="width: 100%" >
-                <a href="#" class="navbar-brand" style=" color: white ;margin-top: -10px;position: relative   " ><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;主页</a>
+        <tr style=" width: 100px ;" >
+            <td style="width: 100%;" >
+                <a href="#" class="navbar-brand" style=" color: white ;margin-top: -10px;position: relative ;font-size: 12px  " ><span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;主页</a>
             </td>
 
         </tr >
-        <tr style="width: 100px " >
-            <td style="width: 100%">
-                <a href="#" class="navbar-brand" style=" color: white ;margin-top: -10px"><span class="glyphicon glyphicon-user"></span>我的京东</a>
+        <tr style="width: 100px ;" >
+            <td style="width: 100%;">
+                <a href="#" class="navbar-brand" style=" color: white ;margin-top: -10px;font-size: 12px"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;我的京东</a>
             </td>
         </tr>
         </tbody>
-        </table>
+    </table>
 </div>
 <!--下拉菜单结束-->
 <!--影院介绍开始-->
@@ -80,7 +80,7 @@
             <td>
 
                 <div class=" "   type="button" onclick="show1()" style="position: relative ;">
-                    <span style="margin-top: 13px;position: absolute  " class="glyphicon glyphicon-chevron-right"></span>
+                    <span style="margin-top: 13px;position: absolute ;color: #777777  " class="glyphicon glyphicon-menu-right"></span>
                 </div>
             </td>
         </tr>
@@ -142,8 +142,9 @@
             <td>
                 <div class="form-group" style="text-align: left ;"  >
                     <ul class="list-inline " >
-                        <li><div style="background-color:#f26422 ;border-radius:30px; " class="active" id="d1" type="button" onclick="show4()"><a id="d2"  href="#home" data-toggle="tab" style="color: white ;text-decoration:none" ><small >&nbsp;今天五月17日 &nbsp;</small></a></div></li>
-                        <li><div id="c1" type="button" onclick="show3()"><a id="c2" href="#aboutus" data-toggle="tab" style="color: #0f0f0f ;text-decoration:none" ><small>明天五月18日</small></a></div></li>
+                        <li><div style="background-color:#f26422 ;border-radius:30px;margin-top: 5px " class="active" id="d1" type="button" onclick="show4()"><a id="d2"  href="#home" data-toggle="tab" style="color: white ;text-decoration:none" ><small style="padding: 5px">&nbsp;今天5月17日 &nbsp;</small></a></div></li>
+                        <li><div id="c1" type="button" onclick="show3()"><a id="c2" href="#aboutus" data-toggle="tab" style="color: #0f0f0f ;text-decoration:none" ><small style="padding: 5px">明天5月18日</small></a></div></li>
+                        <li><div id="e1" type="button" onclick="show5()"><a id="e2" href="#about" data-toggle="tab" style="color: #0f0f0f ;text-decoration:none" ><small style="padding: 5px" >明天5月19日</small></a></div></li>
                     </ul>
                 </div>
             </td>
@@ -159,196 +160,24 @@
     <!--tab切换页第一页-->
     <div id="home" class="tab-pane fade in active">
         <!--时间场次票价1开始-->
-     <div  class="table-responsive" style="margin-top: -20px;height:70px "  >
-         <table class="table" style="position:relative ; z-index: 100;" >
-             <tbody>
-             <tr style="background-color:white " >
-
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 5px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align:center  ;"  >
-                         <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
-                     </div>
-                 </td>
-
-             </tr>
-             <tr>
-             </tbody>
-         </table>
-     </div>
-     <!--时间场次票价1结束-->
-     <!--时间场次票价2开始-->
-     <div class="table-responsive" style="margin-top: -20px;height:70px "  >
-         <table class="table" style="position:relative ; z-index: 100;" >
-             <tbody>
-             <tr style="background-color:white " >
-
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 5px; " ><b style="font-size: 20px">12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align:center  ;"  >
-                         <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
-                     </div>
-                 </td>
-
-             </tr>
-             <tr>
-             </tbody>
-         </table>
-     </div>
-     <!--时间场次票价2结束-->
-     <!--时间场次票价3开始-->
-     <div class="table-responsive" style="margin-top: -20px;height:70px "  >
-         <table class="table" style="position:relative ; z-index: 100;" >
-             <tbody>
-             <tr style="background-color:white " >
-
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 5px; " ><b style="font-size: 20px">12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align:center  ;"  >
-                         <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
-                     </div>
-                 </td>
-
-             </tr>
-             <tr>
-             </tbody>
-         </table>
-     </div>
-     <!--时间场次票价3结束-->
-     <!--时间场次票价4开始-->
-     <div class="table-responsive" style="margin-top: -20px;height:70px "  >
-         <table class="table" style="position:relative ; z-index: 100;" >
-             <tbody>
-             <tr style="background-color:white " >
-
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 5px; " ><b style="font-size: 20px">12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align:center  ;"  >
-                         <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
-                     </div>
-                 </td>
-
-             </tr>
-             <tr>
-             </tbody>
-         </table>
-     </div>
-     <!--时间场次票价4结束-->
-     <!--时间场次票价5开始-->
-     <div class="table-responsive" style="margin-top: -20px;height:70px "  >
-         <table class="table" style="position:relative ; z-index: 100;" >
-             <tbody>
-             <tr style="background-color:white " >
-
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 5px; " ><b style="font-size: 20px">12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align:center  ;"  >
-                         <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
-                     </div>
-                 </td>
-
-             </tr>
-             <tr>
-             </tbody>
-         </table>
-     </div>
-     <!--时间场次票价5结束-->
-     <!--时间场次票价6开始-->
-     <div class="table-responsive" style="margin-top: -20px;height:70px "  >
-         <table class="table" style="position:relative ; z-index: 100;" >
-             <tbody>
-             <tr style="background-color:white " >
-
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 5px; " ><b style="font-size: 20px">12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align:center  ;"  >
-                         <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
-                     </div>
-                 </td>
-                 <td>
-                     <div class="form-group" style="text-align: center  ;"  >
-                         <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
-                     </div>
-                 </td>
-
-             </tr>
-             <tr>
-             </tbody>
-         </table>
-     </div>
-     <!--时间场次票价6结束-->
-    </div>
-    <!--tab切换页第一页结束-->
-    <!--tab切换页第二页开始-->
-    <div id="aboutus" class="tab-pane fade">
-        <!--时间场次票价1开始-->
-        <div  class="table-responsive" style="margin-top: -20px;height:70px "  >
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
             <table class="table" style="position:relative ; z-index: 100;" >
                 <tbody>
                 <tr style="background-color:white " >
 
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 5px; " ><b style="font-size: 20px">12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align:center  ;"  >
-                            <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
                         </div>
                     </td>
 
@@ -359,24 +188,24 @@
         </div>
         <!--时间场次票价1结束-->
         <!--时间场次票价2开始-->
-        <div class="table-responsive" style="margin-top: -20px;height:70px "  >
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
             <table class="table" style="position:relative ; z-index: 100;" >
                 <tbody>
                 <tr style="background-color:white " >
 
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 5px; " ><b style="font-size: 20px">12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align:center  ;"  >
-                            <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
                         </div>
                     </td>
 
@@ -387,24 +216,24 @@
         </div>
         <!--时间场次票价2结束-->
         <!--时间场次票价3开始-->
-        <div class="table-responsive" style="margin-top: -20px;height:70px "  >
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
             <table class="table" style="position:relative ; z-index: 100;" >
                 <tbody>
                 <tr style="background-color:white " >
 
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 5px; " ><b style="font-size: 20px">12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align:center  ;"  >
-                            <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
                         </div>
                     </td>
 
@@ -415,24 +244,24 @@
         </div>
         <!--时间场次票价3结束-->
         <!--时间场次票价4开始-->
-        <div class="table-responsive" style="margin-top: -20px;height:70px "  >
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
             <table class="table" style="position:relative ; z-index: 100;" >
                 <tbody>
                 <tr style="background-color:white " >
 
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 5px; " ><b style="font-size: 20px">12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align:center  ;"  >
-                            <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
                         </div>
                     </td>
 
@@ -443,24 +272,24 @@
         </div>
         <!--时间场次票价4结束-->
         <!--时间场次票价5开始-->
-        <div class="table-responsive" style="margin-top: -20px;height:70px "  >
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
             <table class="table" style="position:relative ; z-index: 100;" >
                 <tbody>
                 <tr style="background-color:white " >
 
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 5px; " ><b style="font-size: 20px">12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align:center  ;"  >
-                            <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
                         </div>
                     </td>
 
@@ -471,24 +300,24 @@
         </div>
         <!--时间场次票价5结束-->
         <!--时间场次票价6开始-->
-        <div class="table-responsive" style="margin-top: -20px;height:70px "  >
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
             <table class="table" style="position:relative ; z-index: 100;" >
                 <tbody>
                 <tr style="background-color:white " >
 
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 5px; " ><b style="font-size: 20px">12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px">&nbsp;16:00散场 &nbsp</small></p>
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align:center  ;"  >
-                            <p style="margin-top: 5px; " ><b>印度语/2D</b> <br><small >2号厅（大厅）</small></p>
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
                         </div>
                     </td>
                     <td>
                         <div class="form-group" style="text-align: center  ;"  >
-                            <p style="margin-top: 15px;color: #f26422 " ><b>$ 38</b></p>
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
                         </div>
                     </td>
 
@@ -498,12 +327,702 @@
             </table>
         </div>
         <!--时间场次票价6结束-->
+        <!--时间场次票价7开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价7结束-->
+        <!--时间场次票价8开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价8结束-->
+        <!--时间场次票价9开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价9结束-->
+        <!--时间场次票价10开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价10结束-->
+    </div>
+    <!--tab切换页第一页结束-->
+    <!--tab切换页第二页开始-->
+    <div id="aboutus" class="tab-pane fade">
+        <!--时间场次票价1开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价1结束-->
+        <!--时间场次票价2开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价2结束-->
+        <!--时间场次票价3开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价3结束-->
+        <!--时间场次票价4开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价4结束-->
+        <!--时间场次票价5开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价5结束-->
+        <!--时间场次票价6开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价6结束-->
+        <!--时间场次票价7开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价7结束-->
+        <!--时间场次票价8开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价8结束-->
+        <!--时间场次票价9开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价9结束-->
+        <!--时间场次票价10开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价10结束-->
+    </div>
+    <!--tab切换页第二页结束-->
+    <!--tab切换页第三页开始-->
+    <div id="about" class="tab-pane fade">
+        <!--时间场次票价1开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >13:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价1结束-->
+        <!--时间场次票价2开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价2结束-->
+        <!--时间场次票价3开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价3结束-->
+        <!--时间场次票价4开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价4结束-->
+        <!--时间场次票价5开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价5结束-->
+        <!--时间场次票价6开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价6结束-->
+        <!--时间场次票价7开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价7结束-->
+        <!--时间场次票价8开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价8结束-->
+        <!--时间场次票价9开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价9结束-->
+        <!--时间场次票价10开始-->
+        <div  class="table-responsive" style="margin-top: -20px;height:80px "  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:white " >
+
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 1px; " ><b style="font-size: 20px" >12:50</b><br><small style="background-color:#eaeddd  ;border-radius:30px;padding: 5px;font-size: 10px">&nbsp;16:00散场 &nbsp</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align:center  ;"  >
+                            <p style="margin-top: 10px; " ><b>印度语/2D</b> <br><small >2号厅(大厅)</small></p>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group" style="text-align: center  ;"  >
+                            <p style="margin-top: 20px;color: #f26422 " ><b>￥38</b></p>
+                        </div>
+                    </td>
+
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--时间场次票价10结束-->
     </div>
     <!--tab切换页第二页结束-->
 </div>
 <!--tabs切换结束-->
-
-
+<!--底部功能模块开始-->
+<table class="table table-bordered" style="margin-top: 40px" >
+    <tbody STYLE="text-align: center ;" >
+    <tr>
+        <td><a style="text-decoration:none ;color:#777777 "  href="#" ><span><img src="img/download.png " ></span>客户端</a></td>
+        <td><a style="text-decoration:none ;color:#777777" href="#" ><span><img src="img/帮助.png " ></span>帮助</a></td>
+        <td><a style="text-decoration:none;color:#777777" href="#" ><span><img src="img/意见反馈.png " ></span>意见反馈</a></td>
+        <td><a style="text-decoration:none;color:#777777" href="#" ><span></span>访问PC版</a></td>
+    </tr>
+    </tbody>
+</table>
+<!--底部功能模块结束-->
 <script >
     <!--下拉菜单1-->
     function show2(){
@@ -513,23 +1032,40 @@
         }else{
             b1.style.display = "block";}
     }
+    <!--tabs切换3-->
+    function show5() {
+        var c1 = document.getElementById('c1');
+        var d1 = document.getElementById('d1');
+        var e1 = document.getElementById('e1');
+        c1.style.backgroundColor = "white";
+        e1.style.borderRadius = "30px";
+        e1.style.backgroundColor = "#f26422";
+        d2.style.color = "black";
+        c2.style.color = "black";
+        e2.style.color = "white"
+    }
     <!--tabs切换2-->
     function show3() {
         var c1 = document.getElementById('c1');
         var d1 = document.getElementById('d1');
-        c1.style.backgroundColor = "#eb9316";
+        var e1 = document.getElementById('e1');
+        c1.style.backgroundColor = "#f26422";
         c1.style.borderRadius = "30px";
         d1.style.backgroundColor = "white";
+        e1.style.backgroundColor = "white";
         d2.style.color = "black";
-        c2.style.color = "white"
+        c2.style.color = "white";
+        e2.style.color = "black";
     }
     <!--tabs切换1-->
     function show4(){
         var c1=document.getElementById('c1');
         var d1=document.getElementById('d1');
+        var e1 = document.getElementById('e1');
         c1.style.backgroundColor = "white";
+        e1.style.backgroundColor = "white";
         c1.style.borderRadius ="30px";
-        d1.style.backgroundColor = "#eb9316";
+        d1.style.backgroundColor = "#f26422";
         d2.style.color ="white";
         c2.style.color ="black";
 
