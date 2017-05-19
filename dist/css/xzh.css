@@ -78,6 +78,7 @@ ul li {
     position: absolute;
     top: 10%;
     left: 5%;
+    outline: none;
 }
 .back2{
     height: 40px;
@@ -87,7 +88,7 @@ ul li {
     border-radius: 100px;
     color: white;
     font-size: 20px;
-
+    outline: none;
 }
 .back3{
     position: absolute;
@@ -158,6 +159,7 @@ ul li {
     background-color: white;
     position: relative;
     top: -150px;
+
 }
 #btn{
     background-color: rgba(254, 255, 251, 0);
