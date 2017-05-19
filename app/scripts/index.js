@@ -1,3 +1,11 @@
 /**
  * Created by yunzhou on 2017/5/15.
  */
+function show2(){
+    var b1=document.getElementById('xlk1');
+    if( b1.style.display==""|| b1.style.display=="block"){
+        b1.style.display = "none";
+    }else{
+        b1.style.display = "block";}
+}
+

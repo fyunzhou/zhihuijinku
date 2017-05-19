@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
     <title>Title</title>
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
@@ -13,18 +14,223 @@
 <div class="gwl_db">
     <a href="index.html" class="logo"><img src="../img/1.png" style="height: 35px;width: 90px"></a>
     <a href="#" class="dz">广州<span class="glyphicon glyphicon-triangle-bottom"></span></a>
-    <div class="xlk">
+    <div class="xlk" onclick="show2()">
         <span class="glyphicon glyphicon-menu-hamburger" id="xl"></span>
-        <div class="xlk1">
-            <a href="index.html"><span class="glyphicon glyphicon-home">首页</span></a>
-            <a href="#"><span class="glyphicon glyphicon-user">个人中心</span></a>
+        <div class="xlk1" id="xlk1">
+            <a href="index.html"><span class="glyphicon glyphicon-home"> 首页</span></a>
+            <a href="#"><span class="glyphicon glyphicon-user"> 个人中心</span></a>
         </div>
     </div>
 </div>
-<script>
-    $("xlk").click( function () {
-        
-    })
-</script>
+<div class="bq">
+    <nav>
+        <ul class="nav nav-tabs">
+            <li class="dyy active"><a href="#home" data-toggle="tab" id="bq1" > 电影</a></li>
+            <li class="dyy1"><a href="#ios" data-toggle="tab" id="bq2" > 影院</a></li>
+        </ul>
+    </nav>
+</div>
+<div id="tab" class="tab-content">
+    <div class="tab-pane fade in active" id="home">
+        <p class="p">正在售票</p>
+        <div class="xx1">
+            <a href="#" class="tp"><img src="../img/haibao.jpg" style="width: 90px;height: 110px;"></a>
+            <div class="xxx">
+                <a href="movie.html" class="js">
+                    <p class="name1">摔跤吧 ! 爸爸</p>
+                    <p class="name3">9.6</p>
+                </a>
+               <a href="movie.html"><p class="name2">慈父虎爸秒切换 ，携女共园摔跤梦</p></a>
+                <p class="rs"><span class="sl">948,461</span>人购票</p>
+            </div>
+        </div>
+        <div class="hx"> <p class="link"></p></div>
+        <div class="xx1">
+            <a href="#" class="tp"><img src="../img/1.jpg" style="width: 90px;height: 110px;"></a>
+            <div class="xxx">
+                <a href="#" class="js">
+                    <p class="name1">加勒比海盗5 <img src="../img/2.png"></p>
+                    <p class="name3">7.0</p>
+                </a>
+                <a href="#"><p class="name2">导游：乔阿吉姆.罗恩尼 艾斯彭.山德伯格</p></a>
+                <p class="rs"><span class="sl">16,925</span>人购票</p>
+            </div>
+        </div>
+        <div class="hx"> <p class="link"></p></div>
+        <div class="xx1">
+            <a href="#" class="tp"><img src="../img/2.jpg" style="width: 90px;height: 110px;"></a>
+            <div class="xxx">
+                <a href="#" class="js">
+                    <p class="name1">银河护卫队2 <img src="../img/2.png"></p>
+                    <p class="name3">8.9</p>
+                </a>
+                <a href="#"><p class="name2">卖萌打趣宇宙漂 ，树人可要长高高</p></a>
+                <p class="rs"><span class="sl">1,042,858</span>人购票</p>
+            </div>
+        </div>
+        <div class="hx"> <p class="link"></p></div>
+        <div class="xx1">
+            <a href="#" class="tp"><img src="../img/3.jpg" style="width: 90px;height: 110px;"></a>
+            <div class="xxx">
+                <a href="#" class="js">
+                    <p class="name1">熟读与激情8 <img src="../img/2.png"></p>
+                    <p class="name3">9.1</p>
+                </a>
+                <a href="#"><p class="name2">硬汉豪车再纵横 ，依旧燃爆荷尔蒙</p></a>
+                <p class="rs"><span class="sl">2,718,179</span>人购票</p>
+            </div>
+        </div>
+        <div class="hx"> <p class="link"></p></div>
+        <div class="xx1">
+            <a href="#" class="tp"><img src="../img/4.jpg" style="width: 90px;height: 110px;"></a>
+            <div class="xxx">
+                <a href="#" class="js">
+                    <p class="name1">提着心 ，吊着胆</p>
+                    <p class="name3">8.0</p>
+                </a>
+                <a href="#"><p class="name2">导演：李雨禾</p></a>
+                <p class="rs"><span class="sl">31,988</span>人购票</p>
+            </div>
+        </div>
+        <div class="hx"> <p class="link"></p></div>
+        <center><button class="an">更多热映影片</button></center>
+        <p class="p">即将上映</p>
+        <div class="xx1">
+        <a href="#" class="tp"><img src="../img/haibao.jpg" style="width: 90px;height: 110px;"></a>
+        <div class="xxx">
+            <a href="#" class="js">
+                <p class="name1">摔跤吧 ! 爸爸</p>
+                <p class="name3">05-18 上映</p>
+            </a>
+            <p class="name2">导演：尼特什.提瓦瑞</p>
+            <p class="name2">主演：阿米尔.汗 萨卡斯.泰瓦 ...</p>
+        </div>
+    </div>
+        <div class="hx"> <p class="link"></p></div>
+        <div class="xx1">
+            <a href="#" class="tp"><img src="../img/haibao.jpg" style="width: 90px;height: 110px;"></a>
+            <div class="xxx">
+                <a href="#" class="js">
+                    <p class="name1">摔跤吧 ! 爸爸</p>
+                    <p class="name3">05-18 上映</p>
+                </a>
+                <p class="name2">导演：尼特什.提瓦瑞</p>
+                <p class="name2">主演：阿米尔.汗 萨卡斯.泰瓦 ...</p>
+            </div>
+        </div>
+        <div class="hx"> <p class="link"></p></div>
+        <div class="xx1">
+            <a href="#" class="tp"><img src="../img/haibao.jpg" style="width: 90px;height: 110px;"></a>
+            <div class="xxx">
+                <a href="#" class="js">
+                    <p class="name1">摔跤吧 ! 爸爸</p>
+                    <p class="name3">05-18 上映</p>
+                </a>
+                <p class="name2">导演：尼特什.提瓦瑞</p>
+                <p class="name2">主演：阿米尔.汗 萨卡斯.泰瓦 ...</p>
+            </div>
+        </div>
+        <div class="hx"> <p class="link"></p></div>
+        <center><button class="an">更多即将上映影片</button></center>
+</div>
+<div class="tab-pane fade" id="ios">
+<div class="qy">
+    <nav>
+    <ul class="nav nav-pills">
+        <li><a class="dropdown-toggle" id="myclass1" data-toggle="dropdown" href="#">
+            <img src="../img/5.jpg" style="width: 15px;height: 18px"> 区域
+            <span class="caret"></span>
+        </a>
+            <ul class="dropdown-menu">
+                <li>区域</li>
+                <li>地铁</li>
+                <li>商圈</li>
+            </ul>
+        </li>
+        <p class="line"></p>
+        <li>
+            <a class="dropdown-toggle" id="myclass" data-toggle="dropdown" href="#">
+                <img src="../img/6.jpg" style="width: 15px;height: 18px"> 特色
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">特效厅</a></li>
+                <li><a href="#">服务</a></li>
+            </ul>
+        </li>
+    </ul>
+    </nav>
+</div>
+    <div class="hx1"><p class="link"></p></div>
+    <div class="xx1">
+        <div class="xx2">
+            <a href="#" class="js">
+                <p class="name1">JAJ24小时影院.影吧</p>
+                <p class="name3">10.0</p>
+            </a>
+            <p class="name4">市桥街繁华路3号三楼</p>
+            <p class="name2">放映2部余11场</p>
+        </div>
+    </div>
+    <div class="hx1"> <p class="link"></p></div>
+    <div class="xx1">
+        <div class="xx2">
+            <a href="#" class="js">
+                <p class="name1">广州南沙万达电影城</p>
+                <p class="name3">9.6</p>
+            </a>
+            <p class="name4">双山大道三号娱乐楼4楼</p>
+            <p class="name2">放映7部余38场<img src="../img/2.png"></p>
+        </div>
+    </div>
+    <div class="hx1"> <p class="link"></p></div>
+    <div class="xx1">
+        <div class="xx2">
+            <a href="#" class="js">
+                <p class="name1">JAJ24小时影院.影吧</p>
+                <p class="name3">10.0</p>
+            </a>
+            <p class="name4">市桥街繁华路3号三楼</p>
+            <p class="name2">放映2部余11场</p>
+        </div>
+    </div>
+    <div class="hx1"><p class="link"></p></div>
+    <div class="xx1">
+        <div class="xx2">
+            <a href="#" class="js">
+                <p class="name1">JAJ24小时影院.影吧</p>
+                <p class="name3">10.0</p>
+            </a>
+            <p class="name4">市桥街繁华路3号三楼</p>
+            <p class="name2">放映2部余11场</p>
+        </div>
+    </div>
+    <div class="hx1"> <p class="link"></p></div>
+    <div class="xx1">
+        <div class="xx2">
+            <a href="#" class="js">
+                <p class="name1">JAJ24小时影院.影吧</p>
+                <p class="name3">10.0</p>
+            </a>
+            <p class="name4">市桥街繁华路3号三楼</p>
+            <p class="name2">放映2部余11场</p>
+        </div>
+    </div>
+    <div class="hx1"> <p class="link"></p></div>
+    <div class="xx1">
+        <div class="xx2">
+            <a href="#" class="js">
+                <p class="name1">JAJ24小时影院.影吧</p>
+                <p class="name3">10.0</p>
+            </a>
+            <p class="name4">市桥街繁华路3号三楼</p>
+            <p class="name2">放映2部余11场</p>
+        </div>
+    </div>
+    <div class="hx1"> <p class="link"></p></div>
+    <center><button class="an">加载中...</button></center>
+</div>
+</div>
+<script src="scripts/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>格瓦拉-登陆</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        *{
+            margin: 0 auto;
+        }
+        body{
+            background-color: #f3f3f3;
+        }
+    </style>
+</head>
+<body>
+<!--顶部导航开始-->
+<div class="table-responsive" style="margin-top: -5px;border: #f26422  solid 0px ;height: 50px"  >
+    <table class="table" style="position:relative ; z-index: 100;" >
+        <tbody>
+        <tr style="background-color:#f26422;" >
+            <td>
+                <div style="position: relative ;margin-top: 8px ">
+                    <a href="Yingyuan.html " class="" style="color: white "   ><span class="glyphicon glyphicon-chevron-left"></span></a>
+                </div>
+            </td>
+            <td>
+                <div class="form-group" style="text-align: center;"  >
+                    <p style="margin-top: 8px;color: white " ><b>登陆&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+        </tbody>
+    </table>
+</div>
+<!--顶部导航结束-->
+<!--登陆注册切换开始-->
+<table class="table table-bordered" style="margin-top: -15px" >
+    <tbody STYLE="text-align: center ;" >
+    <ul  class="list-inline " >
+        <li id="f1" type="button" onclick="show6()" class="active" style="width: 50%;text-align: center " ><a  id="f2"  href="#home" data-toggle="tab" style="text-decoration:none ;color:#f26422 "  ><span></span>账号登陆</a></li>
+        <li id="g1" type="button" onclick="show7()" ><a id="g2" href="#aboutus" data-toggle="tab" style="text-decoration:none ;color:#777777;"  ><span></span>&nbsp&nbsp&nbsp&nbsp&nbsp手机验证注册</a></li>
+    </ul>
+    </tbody>
+</table>
+<hr style="background-color: #777777 ;height: 0px;margin-top: -1px" >
+<hr id="h"  style="background-color: #f26422 ;height: 2px;margin-top: -22px;width: 50%;margin-left: 0px" >
+<hr id="i"  style="background-color: #777777 ;height: 2px;margin-top: -23px;width: 50%;margin-right: 0px" >
+
+<!--登陆注册结束-->
+<!--注册登陆切换开始-->
+<div class="tab-content" id="tabcontent">
+    <div id="home" class="tab-pane fade in active">
+        <!--表单开始-->
+        <form role="form">
+            <div class="form-group">
+                <div class="input-group" >
+                    <span class="input-group-addon" style="background-color: white " ><img src="img/登陆.png " ></span>
+                    <input type="text" placeholder="手机号/注册邮箱" class="form-control" style="height:43px">
+                </div>
+            </div>
+            <div class="form-group" style="margin-top: -16px" >
+                <div class="input-group" >
+                    <span class="input-group-addon" style="background-color: white " ><img src="img/密码.png " ></span>
+                    <input type="password" placeholder="密码" class="form-control" style="height:43px">
+                </div>
+            </div>
+            <div class="form-group" style="">
+                <div class="input-group" >
+                    <span class="input-group-addon" style="background-color: white " ><img src="img/验证码验证.png " ></span>
+                    <input type="password" placeholder="验证码" class="form-control" style="height:43px;background: url(img/yanzhengma.png ) no-repeat right center;background-color: white; ">
+                </div>
+            </div>
+        </form>
+        <!--表单结束-->
+        <!--登陆按钮开始-->
+        <div class="table-responsive" style="margin-top: 25px;border: #f26422  solid 0px ;height: 50px;width: 90%"  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:#f26422;" >
+                    <td>
+                        <div class="form-group" style="text-align: center;margin-top: 8px"  >
+                            <a style="color: white;text-decoration:none; " ><b>登陆</b></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--登陆按钮结束-->
+        <!--注册忘记密码开始-->
+        <div>
+            <a style="color: #f26422;text-decoration:none" >快速注册</a>
+            <a style="float: right;color:#3c3c3c;text-decoration:none" >忘记密码</a>
+
+        </div>
+        <!--注册忘记密码结束-->
+        <!--分割线开始-->
+        <hr style="background-color: #777777 ;height: 1px;margin-top: 50px" >
+        <p style="text-align: center ;padding: 10px;margin-top: -40px;background-color: #f3f3f3;float: right ;margin-right: 38%;color: #777777 " >第三方登陆</p>
+        <!--分割线结束-->
+        <!--第三方登陆开始-->
+        <div  style="margin-left: 38%">
+            <ul class="list-inline" >
+                <li  ><img src="img/新浪.png " alt=""></li>
+                <li  ><img src="img/QQ.png" alt=""></li>
+            </ul>
+        </div>
+        <!--第三方登陆结束-->
+    </div>
+    <!--tabs切换页第2页-->
+    <div id="aboutus" class="tab-pane fade">
+        <!--表单开始-->
+        <form role="form">
+            <div class="form-group">
+                <div class="input-group" >
+                    <span class="input-group-addon" style="background-color: white " ><img src="img/电话.png " ></span>
+                    <input type="text" placeholder="11位手机号" class="form-control" style="height:43px">
+                </div>
+            </div>
+            <div class="form-group" style="margin-top: -16px" >
+                <div class="input-group" >
+                    <span class="input-group-addon" style="background-color: white " ><img src="img/密码.png " ></span>
+                    <input type="password" placeholder="验证码" class="form-control" style="height:43px;background: url(img/yanzhengma.png ) no-repeat  center;background-color: white ">
+                    <span class="input-group-addon" style="color: #777777 " >发送验证码</span>
+                </div>
+            </div>
+            <div class="form-group" style="margin-top: -16px" >
+                <div class="input-group" >
+                    <span class="input-group-addon" style="background-color: white " ><img src="img/密码.png " ></span>
+                    <input type="password" placeholder="6位短信动态码" class="form-control" style="height:43px">
+                </div>
+            </div>
+        </form>
+        <!--表单结束-->
+        <!--登陆按钮开始-->
+        <div class="table-responsive" style="margin-top: 25px;border: #f26422  solid 0px ;height: 50px;width: 90%"  >
+            <table class="table" style="position:relative ; z-index: 100;" >
+                <tbody>
+                <tr style="background-color:#f26422;" >
+                    <td>
+                        <div class="form-group" style="text-align: center;margin-top: 8px"  >
+                            <a style="color: white;text-decoration:none; " ><b>登陆</b></a>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                </tbody>
+            </table>
+        </div>
+        <!--登陆按钮结束-->
+        <!--分割线开始-->
+        <hr style="background-color: #777777 ;height: 1px;margin-top: 101px" >
+        <p style="text-align: center ;padding: 10px;margin-top: -40px;background-color: #f3f3f3;float: right ;margin-right: 38%;color: #777777 " >第三方登陆</p>
+        <!--分割线结束-->
+        <!--第三方登陆开始-->
+        <div  style="margin-left: 38%">
+            <ul class="list-inline" >
+                <li  ><img src="img/新浪.png " alt=""></li>
+                <li  ><img src="img/QQ.png" alt=""></li>
+            </ul>
+        </div>
+        <!--第三方登陆结束-->
+    </div>
+
+</div>
+<!--注册登陆切换结束-->
+
+<script >
+    <!--tabs切换3-->
+    function show6() {
+        var f2 = document.getElementById('f2');
+        var g2 = document.getElementById('g2');
+        var h = document.getElementById('h');
+        var i = document.getElementById('i');
+        h.style.backgroundColor = "#f26422";
+        i.style.backgroundColor = "#777777";
+        g2.style.color = "#777777"
+        f2.style.color = "#f26422";
+    }
+    function show7() {
+        var f2 = document.getElementById('f2');
+        var g2 = document.getElementById('g2');
+        var h = document.getElementById('h');
+        var i = document.getElementById('i');
+        h.style.backgroundColor = "#777777";
+        i.style.backgroundColor = "#f26422";
+        g2.style.color = "#f26422"
+        f2.style.color = "#777777";
+    }
+</script>
+</body>
+</html>
