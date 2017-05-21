@@ -9,3 +9,19 @@ function show2(){
         b1.style.display = "block";}
 }
 
+function show3(){
+
+    var b1=document.getElementById('fy1');
+    if( b1.style.display==""|| b1.style.display=="none"){
+        b1.style.display = "block";
+    }else{
+        b1.style.display = "none";}
+
+}
+function show4(){
+    var b1=document.getElementById('fy2');
+    if( b1.style.display==""|| b1.style.display=="none"){
+        b1.style.display = "block";
+    }else{
+        b1.style.display = "none";}
+}
