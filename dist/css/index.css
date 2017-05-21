@@ -55,7 +55,8 @@
   border: none;
   text-align: center;
 }
-.bq ul li a {
+.bq ul li a,
+.qy ul li a {
   border: none;
   color: #5e5e5e;
 }
@@ -64,10 +65,17 @@
   padding: 10px;
   border: none;
 }
-.bq ul li #bq2:hover {
+#bq3,
+#bq4 {
+  padding-top: 10px;
+  border: none;
+}
+.bq ul li #bq2:hover,
+#bq1:hover {
   color: rgba(239, 99, 13, 0.96);
 }
-.bq ul #bq1:hover {
+#bq3:hover,
+#bq4:hover:hover {
   color: rgba(239, 99, 13, 0.96);
 }
 .bq ul .active {
@@ -162,11 +170,15 @@
 }
 .qy .nav {
   border: none;
+  height: 40px;
 }
 .qy .nav > li {
   text-align: center;
   border: none;
   width: 49.5%;
+}
+.qy .nav > .ts {
+  float: right;
 }
 .qy .nav li a {
   color: #0f0f0f;
@@ -174,4 +186,69 @@
 .qy .nav li a:hover {
   background-color: white;
   color: rgba(239, 99, 13, 0.96);
+}
+ul {
+  list-style: none;
+  padding: 0;
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+#tab2,
+#tab3 {
+  padding: 0;
+  border: none;
+  height: 200px;
+}
+#tab2 .fy,
+#tab3 .fy {
+  width: 95px;
+  height: 200px;
+  background-color: #dddddd;
+}
+#tab2 p,
+#tab3 p {
+  padding: 6px 6px;
+  width: 95px;
+  height: 30px;
+  border: none;
+  border-left: 1px solid #dddddd;
+  margin: 0;
+}
+#tab2 li,
+#tab3 li {
+  border: none;
+}
+#tab2 li:hover,
+#tab3 li:hover {
+  border-left-color: tomato;
+  background-color: white;
+}
+#tab2 .active,
+#tab3 .active {
+  background-color: white;
+  border-left: 1px solid tomato;
+}
+#tab2 p .bqy,
+#tab3 p .bqy {
+  text-decoration: none;
+  border: none;
+  margin: 0;
+  color: #0f0f0f;
+}
+#myTabContent p,
+#myTabContent1 p {
+  padding: 6px;
+}
+#myTabContent,
+#myTabContent1 {
+  height: 200px;
+  width: 100%;
+  overflow: scroll;
+}
+#fy1,
+#fy2 {
+  display: none;
+  border-top: 1px solid #dddddd;
 }
