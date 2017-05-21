@@ -143,13 +143,21 @@
 }
 .t23in{
     width: 384%;
-    height: 100px;
-    background-color: #265a88;
+    height: 220px;
+    background-color: white;
     display: none;
     margin-top: 37px;
     position: absolute;
     left: -246%;
+    overflow: scroll;
 }
+.t23in tr{
+    border-bottom: 1px solid #bfbfbf;
+}
+.t23in td{
+    padding: 11px;
+    padding-left: 20px;}
+
 .zhong{
     width: 100%;
     height: auto;

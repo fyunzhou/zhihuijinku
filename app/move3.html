@@ -11,23 +11,54 @@
 </head>
 <body>
 <div class="box">
-    <div class="top">
-        <a href="movie2.html" class="back glyphicon glyphicon-chevron-left"style="text-decoration: none;"></a>
-        <p align="center">摔跤吧！爸爸</p>
-        <div class=" where">
-            <button type="button" class="btn"onclick="show2()">
-                三
-            </button>
-            <div class="ull" id="xlk1">
-                <a style="color: white;margin-left: 8px;margin-top:5px" href="#"><span class="glyphicon glyphicon-home"></span>&nbsp&nbsp首页</a>
-                <a style="color: white;margin-left: 8px;margin-bottom:5px" href="#"><span class="glyphicon glyphicon-user"></span>&nbsp&nbsp个人中心</a>
-            </div>
+<div class="gwl_db">
+    <a href="move2.html" class="logo"><span style="font-size: 150%;" class="glyphicon glyphicon-chevron-left"></span></a>
+    <p align="center" style="float: left;width:80%;margin-top: 5px; font-size: 150%;color: white">摔跤吧!爸爸</p>
+    <div class="xlk" onclick="show2()">
+        <span class="glyphicon glyphicon-menu-hamburger" id="xl"></span>
+        <div class="xlk1" id="xlk1">
+            <a href="index.html"><span class="glyphicon glyphicon-home"> 首页</span></a>
+            <a href="#"><span class="glyphicon glyphicon-user"> 个人中心</span></a>
         </div>
     </div>
-    <div class="top2">
-
+</div>
+    <div class="zhong">
+        <a href="move3.html"style="text-decoration: none;color: black">
+            <table>
+                <tr><th>中影百纳（飞影4K）凤凰城店</th><td rowspan="3"style="color: #ff6a00;font-size:150% ">7.2</td></tr>
+                <tr><td>广东省广州市天河区科韵路108号3楼</td></tr>
+                <tr><td style="padding-bottom: 20px">05月25日&nbsp23.55</td></tr>
+            </table>
+        </a>
+    </div>
+    <div id="myTab" class="nav nav-tabs dd" style="height: 60px">
+        <div class="active"style=" margin-top: 10px;background-color: rgba(239, 99, 13, 0.96); float: left;border-radius: 20px"id="i1"onclick="colorwhite()"><a href="#home" data-toggle="tab"id="i11">周四05月25日</a></div>
+        <div id="i2"style="margin-top: 10px;float: left;border-radius: 20px;"><a href="#ios" data-toggle="tab"id="i22"onclick="colorwhite2()">周四05月25日</a></div>
+    </div>
+    <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="home">
+            <img src="../img/las1.png"style="width: 100%;height: auto">
+        </div>
+        <div class="tab-pane fade" id="ios">
+            <img src="../img/las2.png"style="width: 100%;height: auto">
+        </div>
+    </div>
+    <div class="bot">
+        <table>
+            <tr>
+                <td><a><span class="glyphicon glyphicon-download-alt"></span>&nbsp客户端</a></td>
+                <td>|</td>
+                <td><a><span class="glyphicon glyphicon-question-sign"></span>&nbsp帮助</a></td>
+                <td>|</td>
+                <td><a><span class="glyphicon glyphicon-envelope"></span>&nbsp意见反馈</a></td>
+                <td>|</td>
+                <td><a>访问pc端</a></td>
+            </tr>
+        </table>
     </div>
 </div>
+
+
 </body>
 <script src="../app/scripts/move3.js"></script>
 </html>

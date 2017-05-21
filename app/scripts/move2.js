@@ -45,19 +45,21 @@ function colorwhite() {
     var l3=document.getElementById('li3');
     if( l2.style.backgroundColor == "white",l2.style.borderLeft == "5px solid #df4d02",
         l3.style.backgroundColor == "",l3.style.borderLeft == ""
+        ||l2.style.backgroundColor=="",l2.style.borderLeft == "",
+        l3.style.backgroundColor=="white",l3.style.borderLeft == "5px solid #df4d02"
        ){
         l2.style.backgroundColor = "";
         l2.style.borderLeft = "";
-        l1.style.backgroundColor = "white";
-        l1.style.borderLeft = "5px solid #df4d02"
-        }else if(l2.style.backgroundColor=="",l2.style.borderLeft == "",
-        l3.style.backgroundColor=="white",l3.style.borderLeft == "5px solid #df4d02"){
         l3.style.backgroundColor = "";
         l3.style.borderLeft = "";
         l1.style.backgroundColor = "white";
         l1.style.borderLeft = "5px solid #df4d02"
-    }
+        }
 else{
+        l2.style.backgroundColor = "";
+        l2.style.borderLeft = "";
+        l3.style.backgroundColor = "";
+        l3.style.borderLeft = "";
         l1.style.backgroundColor = "white";
         l1.style.borderLeft = "5px solid #df4d02"
     }
@@ -69,19 +71,21 @@ function colorwhite2() {
     var l3=document.getElementById('li3');
     if( l1.style.backgroundColor == "white",l1.style.borderLeft == "5px solid #df4d02",
         l3.style.backgroundColor == "",l3.style.borderLeft == ""
+        ||l1.style.backgroundColor=="",l1.style.borderLeft == "",
+        l3.style.backgroundColor=="white",l3.style.borderLeft == "5px solid #df4d02"
     ){
         l1.style.backgroundColor = "";
         l1.style.borderLeft = "";
-        l2.style.backgroundColor = "white";
-        l2.style.borderLeft = "5px solid #df4d02"
-    }else if(l1.style.backgroundColor=="",l1.style.borderLeft == "",
-        l3.style.backgroundColor=="white",l3.style.borderLeft == "5px solid #df4d02"){
         l3.style.backgroundColor = "";
         l3.style.borderLeft = "";
         l2.style.backgroundColor = "white";
         l2.style.borderLeft = "5px solid #df4d02"
     }
     else{
+        l1.style.backgroundColor = "";
+        l1.style.borderLeft = "";
+        l3.style.backgroundColor = "";
+        l3.style.borderLeft = "";
         l2.style.backgroundColor = "white";
         l2.style.borderLeft = "5px solid #df4d02"
     }
@@ -92,17 +96,11 @@ function colorwhite3() {
     var l3=document.getElementById('li3');
     if( l1.style.backgroundColor == "",l1.style.borderLeft == "",
         l2.style.backgroundColor == "white",l2.style.borderLeft == "5px solid #df4d02"
+        ||l1.style.backgroundColor=="white",l1.style.borderLeft == "5px solid #df4d02",
+        l2.style.backgroundColor=="",l2.style.borderLeft == ""
     ){
-        alert("aaaaa")
         l2.style.backgroundColor = "";
         l2.style.borderLeft = "";
-        l3.style.backgroundColor = "white";
-        l3.style.borderLeft = "5px solid #df4d02"
-    }else if(
-        l1.style.backgroundColor=="white",l1.style.borderLeft == "5px solid #df4d02",
-        l2.style.backgroundColor=="",l2.style.borderLeft == ""
-        ){
-        alert("bbbb")
         l1.style.backgroundColor = "";
         l1.style.borderLeft = "";
         l3.style.backgroundColor = "white";
@@ -110,6 +108,10 @@ function colorwhite3() {
     }
     else
     {
+        l2.style.backgroundColor = "";
+        l2.style.borderLeft = "";
+        l1.style.backgroundColor = "";
+        l1.style.borderLeft = "";
         l3.style.backgroundColor = "white";
         l3.style.borderLeft = "5px solid #df4d02"
     }
