@@ -1,0 +1,176 @@
+* {
+    font-family: "微软雅黑 Light";
+}
+.box{
+    height: auto;
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: #ff5600;
+}
+.back{
+    line-height: 50px;
+   margin-left: 4%;
+    color: white;
+    width: 10%;
+    height: 100%;
+    font-size: 200%;
+    text-decoration: none;
+    float: left;
+}
+.top p{
+    color: white;
+    width: 65%;
+    height: 100%;
+    float: left;
+    line-height: 50px;
+    font-size: 150%;
+}
+.where{
+    color: white;
+    width: 13%;
+    height: 100%;
+    font-size: 140%;
+    line-height: 50px;
+    position: absolute;
+}
+.top2{
+    width: 100%;
+    height: 50px;
+    background-color: #eee7e7;
+    position: relative;
+    border-bottom: 1px solid #979393;
+}
+.t21{
+    position: relative;
+    width: 38%;
+    display: inline-block;
+    float: left;
+}
+.t212{
+    width: 100%;
+    font-size: 105%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+.t21in{
+   width: 263%;
+    height: 220px;
+    overflow: scroll;
+    display: none;
+    margin-top: 40px;
+    position: absolute;
+    background-color: white;
+}
+.t21in table{
+    width: 100%;
+    font-size: 120%;
+}
+.t21in tr{
+    border-bottom: 1px solid #d2d2d2;
+}
+.t21in td{
+    padding: 10px;
+}
+.t22{
+    position: relative;
+    width: 26%;
+    display: inline-block;
+    float: left;
+}
+.t222 {
+    width: 100%;
+    font-size: 105%;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+.t22in{
+    width: 384%;
+    height: 220px;
+    display: none;
+    margin-top: 37px;
+    position: absolute;
+    left: -146%;
+}
+.t22in ul{
+    width: 40%;
+    height: 100%;
+    border-bottom: none;
+    list-style: none;
+    background-color: #d2d0be;
+    font-size: 120%;
+    padding:0;
+}
+.t22in2{
+    position:absolute;
+    width:60%;
+    top:0;
+    left:40%;
+    font-size: 120%;
+}
+.t22in li{
+    border-bottom: 1px solid #ada9a3;
+    padding: 5px;
+    width: 100%;
+}
+.t22in table{
+    font-size: 110%;
+    width: 100%;
+    background-color: white;
+}
+.t22in td{
+    padding: 11px;
+    padding-left: 20px;
+    border-bottom:1px solid #dfdad1 ;
+}
+
+
+.t23{
+    position: relative;
+    width: 26%;
+    display: inline-block;
+    float: left;
+}
+.t232 {
+    width: 100%;
+    font-size: 105%;
+    margin-top: 2%;
+    margin-left: 55%;
+}
+.t23in{
+    width: 384%;
+    height: 220px;
+    background-color: white;
+    display: none;
+    margin-top: 37px;
+    position: absolute;
+    left: -246%;
+    overflow: scroll;
+}
+.t23in tr{
+    border-bottom: 1px solid #bfbfbf;
+}
+.t23in td{
+    padding: 11px;
+    padding-left: 20px;}
+
+.zhong{
+    width: 100%;
+    height: auto;
+}
+.zhong table{
+    border-bottom: 1px solid #d5cfcf;
+    width: 100%;
+    margin-top: 20px;
+ }
+.zhong th{
+    padding-left: 20px;
+}
+.zhong td{
+    padding-left: 20px;
+    padding-top: 10px;
+}

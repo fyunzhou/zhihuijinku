@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+    <title>Title</title>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet"href="../dist/css/move2.css">
+</head>
+<body>
+<div class="box">
+    <div class="top">
+        <a href="movie.html" class="back glyphicon glyphicon-chevron-left"style="text-decoration: none;"></a>
+        <p align="center">摔跤吧！爸爸</p>
+        <a class="where"href="qiehuanchengshi.html" style="text-decoration: none;">广州<span class="glyphicon glyphicon-record"style="padding:3px;position: absolute;top:13px"></span></a>
+    </div>
+    <div class="top2">
+        <div class="t21">
+            <div class="t212"onclick="show()">
+            <span class="glyphicon glyphicon-time"style="color: #979393;float: left;margin-top: 4px"></span>
+            <p id="b2" style="float: left;margin-left: 5px">今天&nbsp05.18</p>
+            <span class="glyphicon glyphicon-chevron-down" style="color: #979393; float: left;margin-left: 5px;margin-top: 4px"></span>
+            </div>
+            <div class="t21in"id="t21in">
+                <table>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                </table>
+            </div>
+        </div>
+
+
+        <div class="t22">
+            <div class="t222"onclick="show2()">
+                <span class="glyphicon glyphicon-time"style="color: #979393;float: left;margin-top: 4px"></span>
+                <p style="float: left;margin-left: 5px;">区域</p>
+                <span class="glyphicon glyphicon-chevron-down" style="color: #979393; float: left;margin-left: 5px;margin-top: 4px"></span>
+            </div>
+            <div class="t22in" id="t22in">
+                <ul  id="myTab" class=" nav-tabs nav-stacked">
+                <li class="active" id="li1"style="background-color: white;border-left:5px solid #df4d02" onclick="colorwhite()"><p style="padding-left: 20px;padding-top: 5px;" href="#home" data-toggle="tab">区域</p></li>
+                <li id="li2" onclick="colorwhite2()"><p style="padding-left: 20px;padding-top: 5px" href="#ios" data-toggle="tab">地铁</p></li>
+                    <li id="li3" onclick="colorwhite3()"><p style="padding-left: 20px;padding-top: 5px" href="#sq" data-toggle="tab">商圈</p></li>
+                </ul>
+                <div id="myTabContent" class="tab-content t22in2">
+                    <div class="tab-pane fade in active" id="home"style="height: 220px;width: 100%; overflow: scroll;">
+                        <table>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="ios"style="height: 220px;width: 100%; overflow: scroll;">
+                        <table>
+                            <tr><td>周五&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="sq"style="height: 220px;width: 100%; overflow: scroll;">
+                        <table>
+                            <tr><td>周六&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                            <tr><td>周日&nbsp05.28</td></tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="t23">
+            <div class="t232"onclick="show3()">
+                <span class="glyphicon glyphicon-time"style="color: #979393;float: left;margin-top: 4px"></span>
+                <p style="float: left;margin-left: 5px">特色</p>
+                <span class="glyphicon glyphicon-chevron-down" style="color: #979393; float: left;margin-left: 5px;margin-top: 4px"></span>
+            </div>
+            <div class="t23in" id="t23in">
+                <table style="font-size: 120%;width: 90%;">
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                    <tr><td>周日&nbsp05.28</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="zhong">
+        <a href="move3.html"style="text-decoration: none;color: black">
+        <table>
+            <tr><th>中影百纳（飞影4K）凤凰城店</th><td rowspan="3"style="color: #ff6a00;font-size:150% ">7.2</td></tr>
+            <tr><td>广东省广州市天河区科韵路108号3楼</td></tr>
+            <tr><td style="padding-bottom: 20px">05月25日&nbsp23.55</td></tr>
+        </table>
+        </a>
+    </div>
+    <div class="zhong">
+        <table>
+            <tr><th>中影百纳（飞影4K）凤凰城店</th><td rowspan="3"style="color: #ff6a00;font-size:150% ">7.2</td></tr>
+            <tr><td>广东省广州市天河区科韵路108号3楼</td></tr>
+            <tr><td style="padding-bottom: 20px">05月25日&nbsp23.55</td></tr>
+        </table>
+    </div>
+    <div class="zhong">
+        <table>
+            <tr><th>中影百纳（飞影4K）凤凰城店</th><td rowspan="3"style="color: #ff6a00;font-size:150% ">7.2</td></tr>
+            <tr><td>广东省广州市天河区科韵路108号3楼</td></tr>
+            <tr><td style="padding-bottom: 20px">05月25日&nbsp23.55</td></tr>
+        </table>
+    </div>
+</div>
+
+
+
+</body>
+<script src="../app/scripts/move2.js"></script>
+</html>
